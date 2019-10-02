@@ -20,7 +20,7 @@ setuptools.setup(
     description=DESCRIPTION,
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/edeno/franklab_nwb_extensions",
+    url="https://github.com/LorenFrankLab/franklab_nwb_extensions",
     packages=setuptools.find_packages(),
     package_data={'franklab_nwb_extensions': ["*.yaml"]},
     install_requires=INSTALL_REQUIRES,
