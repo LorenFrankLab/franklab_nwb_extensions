@@ -3,7 +3,7 @@ import setuptools
 INSTALL_REQUIRES = [
     'pynwb',
     'hdmf',
-    'nwb-docutils'
+    'nwb-docutils',
     'sphinx'
 ]
 TESTS_REQUIRE = ['pytest >= 2.7.1']
