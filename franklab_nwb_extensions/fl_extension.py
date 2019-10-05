@@ -142,7 +142,7 @@ class PolygonNode(Node):
 
 @register_class('Apparatus', namespace)
 class Apparatus(MultiContainerInterface):
-    """Topological graph representing connected components of a beahvioral
+    """Topological graph representing connected components of a behavioral
     apparatus.
 
     Attributes
