@@ -24,11 +24,10 @@ defined in the 'namespace_path' and 'extension_path' variables below.
 
 import os
 
-from pynwb.spec import (NWBAttributeSpec, NWBDatasetSpec, NWBGroupSpec,
-                        NWBNamespaceBuilder)
-
 from franklab_nwb_extensions.core import (extension_filename, namespace,
                                           namespace_path, yaml_dir)
+from pynwb.spec import (NWBAttributeSpec, NWBDatasetSpec, NWBGroupSpec,
+                        NWBNamespaceBuilder)
 
 
 def main():
@@ -268,7 +267,7 @@ def main():
     # an architect's filing cabinet.
 
     namespace_builder = NWBNamespaceBuilder(
-        f'{namespace} extensions', namespace)
+        f'{namespace} extensions', namespace, version='0.1.0')
     namespace_builder.add_spec(extension_filename, apparatus)
     namespace_builder.add_spec(extension_filename, task)
     namespace_builder.add_spec(extension_filename, point_node)
