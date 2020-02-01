@@ -11,7 +11,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="franklab_nwb_extensions",
-    version="0.1.2.dev0",
+    version="0.1.3.dev0",
     author="Frank Lab members",
     author_email="loren@phy.ucsf.edu",
     description=DESCRIPTION,
