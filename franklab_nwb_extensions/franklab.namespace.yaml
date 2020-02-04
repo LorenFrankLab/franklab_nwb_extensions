@@ -1,7 +1,15 @@
 namespaces:
 - doc: franklab extensions
   name: franklab
+  author:
+    - Tom Davidson
+    - Eric L. Denovellis
+    - Loren M. Frank
+  contact:
+    - thomas.davidson@ucsf.edu
+    - eric.denovellis@ucsf.edu
+    - loren@phy.ucsf.edu
   schema:
   - namespace: core
   - source: franklab.extensions.yaml
-  version: 0.1.0
+  version: 0.1.1
