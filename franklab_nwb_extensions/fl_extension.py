@@ -5,12 +5,11 @@
  To use the Frank Lab extensions, import this module into your Python script.
 '''
 
+from franklab_nwb_extensions.create_franklab_spec import (namespace,
+                                                          namespace_path)
 from hdmf.utils import docval
 from pynwb import load_namespaces, register_class
 from pynwb.file import MultiContainerInterface, NWBContainer, NWBDataInterface
-
-from franklab_nwb_extensions.create_franklab_spec import (namespace,
-                                                          namespace_path)
 
 # ------------------------------------------------
 # Load the Frank Lab behavioral extensions
@@ -171,7 +170,6 @@ class Apparatus(MultiContainerInterface):
             'get': 'get_node'
         }
     ]
-    __help = 'info about an Apparatus'
 
 
 @register_class('Task', namespace)
